@@ -16,7 +16,7 @@ provider "azurerm" {
 
 resource "azurerm_resource_group" "rg" {
 
-  name     = "Azurecli33"
+  name     = "jenkins_terraform"
   location = "North Europe"
   tags = {
         Environment = "Terraform Getting Started"
